@@ -6,6 +6,7 @@
 body {
   margin: 0 auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 footer {
@@ -24,6 +25,8 @@ footer {
   align-items: center;
 }
 .header-menu nav {
+  font-family: "Roboto", serif;
+  font-size: 20px;
   align-self: center;
 }
 .header-menu nav ul li {
@@ -32,6 +35,10 @@ footer {
 }
 .header-menu nav ul li a {
   text-decoration: none;
+  color: #003E52;
+}
+.header-menu nav ul li a:hover {
+  color: #6cadc2;
 }
 
 .contact li {
