@@ -18,6 +18,11 @@ footer {
   height: 200px;
   color: #ffffff;
 }
+@media (min-width: 720px) {
+  footer {
+    font-size: 25px;
+  }
+}
 
 img {
   width: 100%;
@@ -205,4 +210,14 @@ svg {
 .contact li {
   font-size: 12px;
   list-style: none;
+}
+
+@media (min-width: 720px) {
+  .contact {
+    margin-top: 15px;
+  }
+  .contact li {
+    text-align: center;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */

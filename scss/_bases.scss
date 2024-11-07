@@ -17,6 +17,10 @@ footer {
     background-color: $color-footer_back;
     height: $footer-height;
     color: $color-footer_typo;
+
+    @media (min-width:720px) {
+        font-size: 25px;
+    }
 }
 
 img {
