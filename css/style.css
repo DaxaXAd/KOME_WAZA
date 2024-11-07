@@ -32,4 +32,9 @@ footer {
 }
 .header-menu nav ul li a {
   text-decoration: none;
+}
+
+.contact li {
+  text-align: left;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
