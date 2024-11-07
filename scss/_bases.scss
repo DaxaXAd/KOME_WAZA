@@ -7,12 +7,14 @@ body {
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
+    // font-family: $font-family_menu;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: $color-footer_back;
     height: $footer-height;
     color: $color-footer_typo;
