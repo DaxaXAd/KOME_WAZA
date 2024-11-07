@@ -5,32 +5,9 @@
 
 body {
     margin: 0 auto;
-    text-align: center;
-    box-sizing: border-box;
-    // font-family: $font-family_menu;
     color: $textes;
 
-    @media (min-width:720px) {
-        // section header-menu
-        .header-menu {
-            flex-direction: row;
-            gap: 200px;
-            nav {
-                ul {
-                    li {
-                        display: inline;
-                        padding: 0 5px;
-                    }
-                    
-                }
-            }
-        }
-
-        // section intro
-        .intro-items {
-            
-        }
-    }
+   
 }
 
 footer {
@@ -45,5 +22,4 @@ footer {
 
 img {
     width: 100%;
-    height: auto;
 }

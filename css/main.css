@@ -5,19 +5,7 @@
 
 body {
   margin: 0 auto;
-  text-align: center;
-  box-sizing: border-box;
   color: #003E52;
-}
-@media (min-width: 720px) {
-  body .header-menu {
-    flex-direction: row;
-    gap: 200px;
-  }
-  body .header-menu nav ul li {
-    display: inline;
-    padding: 0 5px;
-  }
 }
 
 footer {
@@ -32,7 +20,6 @@ footer {
 
 img {
   width: 100%;
-  height: auto;
 }
 
 .header-menu {
@@ -63,17 +50,31 @@ img {
   height: auto;
 }
 
+@media (min-width: 720px) {
+  .header-menu {
+    flex-direction: row;
+    gap: 200px;
+  }
+  .header-menu nav ul li {
+    display: inline;
+    padding: 0 5px;
+  }
+  .menu-items {
+    row-gap: 70px;
+  }
+}
 .intro-items {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .intro-items .intro-items-txt {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 .intro-items .intro-items-txt h1 {
   font-family: "Roboto", serif;
@@ -87,16 +88,38 @@ img {
 .intro-items .intro-items-txt p {
   font-family: "Roboto", serif;
   color: #003E52;
-  text-align: right;
 }
 .intro-items .intro-items-img {
   width: 100%;
-  height: auto;
 }
 .intro-items .intro-items-img img {
-  width: 60%;
+  width: 100%;
 }
 
+@media (min-width: 720px) {
+  .intro-items {
+    margin: 50px 20%;
+    flex-direction: row-reverse;
+    text-align: right;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .intro-items .intro-items-txt {
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .intro-items .intro-items-txt h1 {
+    font-size: 55px;
+    width: 50%;
+  }
+  .intro-items .intro-items-txt p {
+    width: 25%;
+  }
+  .intro-items .intro-items-img img {
+    width: 95%;
+  }
+}
 .slider-img {
   width: 100%;
 }
@@ -123,8 +146,8 @@ img {
 .menu-items .menu-items_paragraph {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
   gap: 4px;
 }
 .menu-items .menu-items_paragraph h2 {
@@ -137,6 +160,20 @@ img {
   margin-bottom: 10px;
 }
 
+@media (min-width: 720px) {
+  .menu-items {
+    margin: 20px 0 30px 0;
+  }
+  .menu-items .menu-items_title {
+    margin-bottom: 70px;
+  }
+  .menu-items .menu-items_paragraph {
+    align-items: flex-start;
+  }
+  .menu-items .menu-items_paragraph h2 {
+    font-size: 18px;
+  }
+}
 .sushi-img {
   width: 100%;
   height: auto;

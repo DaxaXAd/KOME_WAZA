@@ -30,3 +30,23 @@
     width: 100%;
     height: auto;
 }
+
+@media (min-width:720px) {
+
+    // section header-menu
+    .header-menu {
+        flex-direction: row;
+        gap: 200px;
+        nav {
+            ul {
+                li {
+                    display: inline;
+                    padding: 0 5px;
+                }                    
+            }
+        }
+    }
+    .menu-items {
+        row-gap: 70px;
+    }
+}
