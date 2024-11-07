@@ -132,6 +132,15 @@ img {
   height: auto;
 }
 
+.map {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.map iframe {
+  width: 100%;
+}
+
 .contact {
   margin-top: 10px;
 }
