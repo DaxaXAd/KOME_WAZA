@@ -9,13 +9,22 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-end;
-        h1{
+
+        h1 {
             font-family: $font-family;
-            font-size: 20px;
+            font-size: 25px;
             font-weight: 600;
         }
+
         h3 {
             font-family: $font-family;
+            font-size: 6px;
+        }
+
+        p {
+            font-family: $font-family;
+            color: $textes;
+            text-align: right;
         }
     }
 
