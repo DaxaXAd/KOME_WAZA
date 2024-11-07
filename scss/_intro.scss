@@ -1,0 +1,25 @@
+.intro-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .intro-items-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        h1{
+            font-family: $font-family_menu;
+            font-size: 18px;
+        }
+    }
+
+    .intro-items-img {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 60%;
+        }
+    }
+}

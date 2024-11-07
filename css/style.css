@@ -52,14 +52,42 @@ img {
   height: auto;
 }
 
+.intro-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.intro-items .intro-items-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.intro-items .intro-items-txt h1 {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+}
+.intro-items .intro-items-img {
+  width: 100%;
+  height: auto;
+}
+.intro-items .intro-items-img img {
+  width: 60%;
+}
+
+.slider-img {
+  width: 100%;
+}
+
+.sushi-img {
+  width: 100%;
+  height: auto;
+}
+
 .contact {
   margin-top: 10px;
 }
 .contact li {
   font-size: 12px;
   list-style: none;
-}
-
-.slider-img {
-  width: 100%;
 }/*# sourceMappingURL=style.css.map */
