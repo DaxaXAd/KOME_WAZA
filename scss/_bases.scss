@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: $color-footer_back;
+    height: $footer-height;
+}
