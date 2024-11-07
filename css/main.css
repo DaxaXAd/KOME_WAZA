@@ -9,6 +9,16 @@ body {
   box-sizing: border-box;
   color: #003E52;
 }
+@media (min-width: 720px) {
+  body .header-menu {
+    flex-direction: row;
+    gap: 200px;
+  }
+  body .header-menu nav ul li {
+    display: inline;
+    padding: 0 5px;
+  }
+}
 
 footer {
   display: flex;
