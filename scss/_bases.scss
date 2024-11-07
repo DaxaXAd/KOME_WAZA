@@ -9,6 +9,10 @@ body {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: $color-footer_back;
     height: $footer-height;
+    color: $color-footer_typo;
 }

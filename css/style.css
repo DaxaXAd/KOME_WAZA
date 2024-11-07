@@ -9,8 +9,12 @@ body {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #003e52;
   height: 200px;
+  color: #ffffff;
 }
 
 .header-menu {

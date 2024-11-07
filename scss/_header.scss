@@ -8,16 +8,13 @@
         align-self: center;
         ul {
             li {
-                text-align: left;
+                text-align: left; //align text correctly on the left
                 list-style: none;
     
                 a {
                     text-decoration: none;
                 }
             }
-
         }
-        
-        
     }
 }
