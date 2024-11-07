@@ -7,10 +7,17 @@
     .intro-items-txt {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: flex-end;
         h1{
-            font-family: $font-family_menu;
-            font-size: 18px;
+            font-family: $font-family;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-family: $font-family;
+            font-size: 2px;
         }
     }
 

@@ -62,11 +62,17 @@ img {
 .intro-items .intro-items-txt {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 .intro-items .intro-items-txt h1 {
   font-family: "Roboto", serif;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.intro-items .intro-items-txt h3 {
+  font-family: "Roboto", serif;
+  font-size: 2px;
 }
 .intro-items .intro-items-img {
   width: 100%;
@@ -91,4 +97,6 @@ img {
 .contact li {
   font-size: 12px;
   list-style: none;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
