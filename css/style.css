@@ -18,6 +18,11 @@ footer {
   color: #ffffff;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .header-menu {
   display: flex;
   flex-direction: column;
@@ -39,6 +44,11 @@ footer {
 }
 .header-menu nav ul li a:hover {
   color: #6cadc2;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
 }
 
 .contact li {
