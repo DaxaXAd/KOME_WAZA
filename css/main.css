@@ -6,6 +6,7 @@
 body {
   margin: 0 auto;
   color: #003E52;
+  font-family: "Roboto", serif;
 }
 
 footer {
@@ -145,7 +146,6 @@ svg {
 }
 .menu-items .menu-items_title h2 {
   display: inline-block;
-  border-bottom: 3px solid #003E52;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -155,14 +155,16 @@ svg {
   justify-content: center;
   align-items: center;
   gap: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 11px;
+  border-top: 3px solid #003E52;
 }
 .menu-items .menu-items_paragraph h2 {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 12px;
 }
 .menu-items .menu-items_paragraph p {
   font-size: 13px;
-  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -171,13 +173,16 @@ svg {
     margin: 20px 0 30px 0;
   }
   .menu-items .menu-items_title {
-    margin-bottom: 70px;
+    margin-bottom: 55px;
   }
   .menu-items .menu-items_paragraph {
     align-items: flex-start;
+    padding-top: 40px;
+    border-top: 2px solid #003E52;
   }
   .menu-items .menu-items_paragraph h2 {
     font-size: 18px;
+    padding: 20px;
   }
 }
 .sushi-img {
