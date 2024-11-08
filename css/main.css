@@ -136,14 +136,15 @@ svg {
   width: 100%;
 }
 .slider-img :hover {
-  transform: scale(1);
-  animation: slide 5s infinite;
+  animation: slide 2s infinite alternate;
 }
 
 @keyframes slide {
+  0% {
+    translate: 200px;
+  }
   100% {
-    translate: -100%;
-    animation: backwards;
+    translate: -200px;
   }
 }
 .menu-items {

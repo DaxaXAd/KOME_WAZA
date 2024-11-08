@@ -1,13 +1,20 @@
 .slider-img {
     width: 100%;
-    // :hover {
-    //     transform: scale(1);
-    //     animation: slide 5s infinite;
-    // }    
+
+    //animation start when hover the img
+    :hover {
+        animation: slide 2s infinite alternate;
+    } //animation names slide taking 2s undefinitely repeat animation
+
+   
 }
 
-// @keyframes slide {
-//     100% {
-//         translate: -100%;
-//     }
-// }
+//Call our animation 
+@keyframes slide {
+    0% {
+        translate: 200px; //from start goes 200px in a direction
+    }
+    100% {
+        translate: -200px;//move from -200px in X axe
+    }
+}
