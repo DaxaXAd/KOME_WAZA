@@ -28,11 +28,6 @@ img {
   width: 100%;
 }
 
-svg {
-  width: 20px;
-  height: 20px;
-}
-
 .header-menu {
   display: flex;
   flex-direction: column;
@@ -141,10 +136,26 @@ svg {
 
 @keyframes slide {
   0% {
-    translate: 200px;
+    translate: -30px;
   }
   100% {
-    translate: -200px;
+    translate: 30px;
+  }
+}
+@media (min-width: 720px) {
+  .slider-img {
+    width: 100%;
+  }
+  .slider-img :hover {
+    animation: slide 2s infinite alternate;
+  }
+  @keyframes slide {
+    0% {
+      translate: 200px;
+    }
+    100% {
+      translate: -200px;
+    }
   }
 }
 .menu-items {
