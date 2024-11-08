@@ -135,7 +135,17 @@ svg {
 .slider-img {
   width: 100%;
 }
+.slider-img :hover {
+  transform: scale(1);
+  animation: slide 5s infinite;
+}
 
+@keyframes slide {
+  100% {
+    translate: -100%;
+    animation: backwards;
+  }
+}
 .menu-items {
   display: flex;
   flex-direction: column;
